@@ -22,3 +22,6 @@ monthly = "parsely_analysis.monthly_auth_rank:main"
 
 [tool.setuptools]
 packages = ["parsely_analysis"]
+
+[tool.setuptools.package-dir]
+"" = "src"
