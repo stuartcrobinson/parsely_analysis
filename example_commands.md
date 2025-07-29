@@ -39,7 +39,7 @@ python journalist_metrics.py \
 python journalist_metrics.py \
     inputs/posts-export-by-page-views-Jul-01-2024-Jul-29-2025-indyweek-com.csv \
     --output-dir results \
-    --save-parquet
+    --save-parquet \
     --top-n 5 \
     --after-date 2025-05-01
 ```
@@ -121,4 +121,32 @@ python monthly_auth_rank.py \
     --after-date 2025-04-01 \
     --top-n 3 \
     --format compact
+```
+
+## pipx
+
+```sh
+pipx run --spec git+https://github.com/stuartcrobinson/parsely_analysis.git \
+monthly \
+inputs/posts-export-by-page-views-Jul-01-2024-Jul-29-2025-indyweek-com.csv \
+--format compact \
+--output-dir results \
+--save-parquet \
+--top-n 3 \
+--ignore-authors "INDY staff" \
+--ignore-authors "Staff" \
+--ignore-authors "adminnewspack" \
+--ignore-authors "INDY Sales" \
+--after-date 2025-05-01
+
+
+
+pipx run --spec git+https://github.com/stuartcrobinson/parsely_analysis.git \
+combined \
+inputs/posts-export-by-page-views-Jul-01-2024-Jul-29-2025-indyweek-com.csv \
+--output-dir results \
+--save-parquet \
+--top-n 5 \
+--after-date 2025-05-01
+
 ```
