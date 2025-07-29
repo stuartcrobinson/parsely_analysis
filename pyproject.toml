@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parsely_analysis"
+version = "0.1.0"
+description = "Analyze journalist performance metrics from Parsely data"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas==2.2.3",
+    "pyarrow==18.1.0",
+    "numpy==1.26.4",
+    "click==8.1.8",
+    "tqdm==4.67.1",
+]
+
+[project.scripts]
+combined = "parsely_analysis.journalist_metrics:main"
+monthly = "parsely_analysis.monthly_auth_rank:main"
