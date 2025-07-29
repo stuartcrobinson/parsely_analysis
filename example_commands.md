@@ -34,6 +34,16 @@ python journalist_metrics.py \
     --top-n 15
 ```
 
+### everything 
+```bash
+python journalist_metrics.py \
+    inputs/posts-export-by-page-views-Jul-01-2024-Jul-29-2025-indyweek-com.csv \
+    --output-dir results \
+    --save-parquet
+    --top-n 5 \
+    --after-date 2025-05-01
+```
+
 ## monthly_auth_rank.py Examples
 
 ### Basic monthly rankings (verbose format)
@@ -47,11 +57,14 @@ python monthly_auth_rank.py \
 python monthly_auth_rank.py \
     inputs/posts-export-by-page-views-Jul-01-2024-Jul-29-2025-indyweek-com.csv \
     --format compact \
+    --output-dir results \
+    --save-parquet
     --top-n 3 \
     --ignore-authors "INDY staff" \
     --ignore-authors "Staff" \
     --ignore-authors "adminnewspack" \
-    --ignore-authors "INDY Sales" 
+    --ignore-authors "INDY Sales" \
+    --after-date 2025-05-01
 ```
 ### Save monthly outputs with date filter
 ```bash

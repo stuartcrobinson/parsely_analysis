@@ -4,6 +4,7 @@ replacer/
 runoutput/
 csv_outputs/
 inputs/
+results/
 
 .venv/
 **pycache**/

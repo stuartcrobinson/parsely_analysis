@@ -9,7 +9,7 @@ description = "Analyze journalist performance metrics from Parsely data"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "pandas==2.2.3",
+    "pandas==2.3.1",
     "pyarrow==18.1.0",
     "numpy==1.26.4",
     "click==8.1.8",
@@ -19,3 +19,6 @@ dependencies = [
 [project.scripts]
 combined = "parsely_analysis.journalist_metrics:main"
 monthly = "parsely_analysis.monthly_auth_rank:main"
+
+[tool.setuptools]
+packages = ["parsely_analysis"]

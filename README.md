@@ -45,17 +45,21 @@ pip install -e .
 ```bash
 # Analyze overall journalist metrics
 pipx run --spec git+https://github.com/stuartcrobinson/parsely_analysis.git combined \
-    data.csv \
+    inputs/data.csv \
     --top-n 20 \
     --after-date 2024-01-01 \
     --output-dir ./results
 
 # Generate monthly rankings
 pipx run --spec git+https://github.com/stuartcrobinson/parsely_analysis.git monthly \
-    data.csv \
+    inputs/data.csv \
     --top-n 5 \
     --format compact \
-    --ignore-authors "News Desk" \
+    --ignore-authors "INDY staff" \
+    --ignore-authors "Staff" \
+    --ignore-authors "adminnewspack" \
+    --ignore-authors "INDY Sales" \
+    --after-date 2024-01-01 \
     --output-dir ./results
 ```
 
