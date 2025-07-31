@@ -5,6 +5,9 @@ runoutput/
 csv_outputs/
 inputs/
 results/
+inputs*/
+
+tmp*
 
 .venv/
 **pycache**/

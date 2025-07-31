@@ -54,11 +54,11 @@ python monthly_auth_rank.py \
 
 ### Compact format with ignored authors
 ```bash
-python monthly_auth_rank.py \
+python src/parsely_analysis/monthly_auth_rank.py \
     inputs/posts-export-by-page-views-Jul-01-2024-Jul-29-2025-indyweek-com.csv \
     --format compact \
     --output-dir results \
-    --save-parquet
+    --save-parquet \
     --top-n 3 \
     --ignore-authors "INDY staff" \
     --ignore-authors "Staff" \

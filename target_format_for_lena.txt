@@ -1,0 +1,199 @@
+============================================================
+JOURNALIST PERFORMANCE ANALYSIS 7/1/24 – 7/30/25
+============================================================
+Input file: inputs/posts-export-by-page-views-Jun-01-2024-Jul-30-2025-indyweek-com.csv
+Parsely data filtered by publication date: 2024-07-01
+Top N: 5
+Ignored authors: INDY staff, Staff, adminnewspack
+Parsely metrics: 
+    views
+    visitors
+    social_refs
+    new_visitors
+    engaged_minutes
+
+
+============================================================
+TOP 5 JOURNALISTS BY PAGE VIEWS         1st vs 2nd: +[calculated_value]%
+============================================================
+Rank  Journalist                     Page Views       Articles  
+------------------------------------------------------------
+1     Lena Geller                    330337           92  
+2     Chloe Courtney Bohl            207587           86  
+3     Chase Pellegrini de Paur       175521           97  
+4     INDY staff                     149497          114  
+5     Justin Laidlaw                 136165           84  
+
+============================================================
+TOP 5 JOURNALISTS BY VISITORS              1st vs 2nd: +xxx%
+============================================================
+Rank  Journalist                     Visitors          Articles  
+------------------------------------------------------------
+1     Lena Geller                    283775             92 
+2     Chloe Courtney Bohl            173369             86 
+3     Chase Pellegrini de Paur       153849             97 
+4     INDY staff                     116294            114 
+5     Justin Laidlaw                 115401             84 
+
+============================================================
+TOP 5 JOURNALISTS BY SOCIAL REF           1st vs 2nd: +xxx%
+============================================================
+Rank  Journalist                     Social Referrals  Articles 
+------------------------------------------------------------
+1     Lena Geller                    68714             92   
+2     Chase Pellegrini de Paur       15134             97   
+3     Chloe Courtney Bohl            12501             86   
+4     Jane Porter                     9271             53   
+5     Sarah Edwards                   8951             87   
+
+============================================================
+TOP 5 JOURNALISTS BY NEW VISITORS          1st vs 2nd: +xxx%
+============================================================
+Rank  Journalist                     New Visitors    Articles  
+------------------------------------------------------------
+1     Lena Geller                    229678           92 
+2     Chloe Courtney Bohl            140790           86 
+3     Chase Pellegrini de Paur       119047           97 
+4     INDY staff                      92170          114 
+5     Justin Laidlaw                  78271           84 
+
+============================================================
+TOP 5 JOURNALISTS BY ENGAGED MINUTES      1st vs 2nd: +xxx%
+============================================================
+Rank  Journalist                     Engaged Minutes  Articles 
+------------------------------------------------------------
+1     Lena Geller                    551375            92   
+2     Chloe Courtney Bohl            312304            86   
+3     INDY staff                     228502           114   
+4     Chase Pellegrini de Paur       204202            97   
+5     Justin Laidlaw                 172850            84   
+
+
+
+
+============================================================
+MONTHLY RANKINGS: PAGE VIEWS
+
+Lena    6
+Chase   3
+Chloe   3
+Jane    1
+
+2024-07  Lena, Chase, Justin, Chloe, Mila - 85814, 13545, 12314, 8622, 5044 - 3, 7, 9, 5, 5
+2024-08  Lena, Justin, Chloe, Chase, Jane - 15353, 11681, 10676, 10598, 10026 - 4, 6, 7, 4, 3
+2024-09  Chase, Sarah, Chloe, Lena, Justin - 20426, 11300, 10038, 7585, 5988 - 7, 7, 5, 4, 3
+2024-10  Chloe, Sarah, Chase, Justin, Lena - 17158, 13893, 12865, 7664, 5766 - 7, 5, 7, 6, 4
+2024-11  Chase, Chloe, Lena, Justin, Sarah - 25873, 12658, 6501, 6162, 5255 - 5, 3, 4, 5, 4
+2024-12  Lena, Bill, Chloe, Sarah, Justin - 19237, 9366, 8492, 6365, 5531 - 5, 2, 2, 3, 4
+2025-01  Chloe, Chase, Lena, Elliott, Sarah - 52408, 14763, 11343, 9208, 8323 - 7, 9, 7, 3, 7
+2025-02  Jane, Lena, Justin, Chase, Sarah - 15056, 12977, 11884, 7454, 6149 - 6, 13, 9, 6, 9
+2025-03  Chase, Lena, Sarah, Chloe, Jane - 27579, 23247, 11077, 11028, 9374 - 12, 8, 9, 10, 7
+2025-04  Chloe, Chase, Justin, Lena, Sarah - 14644, 12538, 12378, 12348, 9622 - 10, 14, 9, 9, 11
+2025-05  Lena, Justin, Chloe, Jane, Mila - 75520, 21409, 18313, 8722, 6834 - 13, 8, 12, 8, 1
+2025-06  Lena, Jane, Justin, Daneen, Chase - 16052, 14156, 12859, 10650, 6031 - 10, 6, 8, 6, 9
+2025-07  Lena, Chloe, Jane, Chase, Justin - 38593, 33338, 15885, 13490, 12791 - 8, 8, 8, 9, 4
+
+============================================================
+MONTHLY RANKINGS: VISITORS
+
+Lena    6
+Chase   3
+Chloe   3
+Jane    1
+
+2024-07  Lena, Chase, Justin, Chloe, Mila - 75953, 12352, 10845, 5818, 4333 - 3, 7, 9, 5, 5
+2024-08  Lena, Justin, Chase, Chloe, Jane - 13595, 10262, 9155, 8705, 8305 - 4, 6, 4, 7, 3
+2024-09  Chase, Sarah, Chloe, Lena, Justin - 17780, 9166, 8508, 6492, 5370 - 7, 7, 5, 4, 3
+2024-10  Chloe, Chase, Sarah, Justin, Lena - 14462, 11514, 11446, 6628, 5008 - 7, 7, 5, 6, 4
+2024-11  Chase, Chloe, Lena, Justin, Sarah - 24429, 10508, 5461, 5253, 4307 - 5, 3, 4, 5, 4
+2024-12  Lena, Bill, Chloe, Sarah, Justin - 16164, 7534, 7183, 5232, 4990 - 5, 2, 2, 3, 4
+2025-01  Chloe, Chase, Lena, Elliott, Sarah - 44495, 12757, 9596, 7610, 7075 - 7, 9, 7, 3, 7
+2025-02  Jane, Lena, Justin, Chase, Sarah - 13340, 10948, 9720, 6234, 5238 - 6, 13, 9, 6, 9
+2025-03  Chase, Lena, Sarah, Chloe, Jane - 23099, 19624, 9081, 9004, 7760 - 12, 8, 9, 10, 7
+2025-04  Chloe, Chase, Justin, Lena, Sarah - 12085, 10646, 10568, 9928, 8245 - 10, 14, 9, 9, 11
+2025-05  Lena, Justin, Chloe, Jane, Mila - 65871, 17731, 15329, 7248, 6239 - 13, 8, 12, 8, 1
+2025-06  Lena, Jane, Justin, Daneen, Chase - 13596, 12355, 11122, 8662, 5189 - 10, 6, 8, 6, 9
+2025-07  Lena, Chloe, Jane, Chase, Justin - 31538, 28624, 14192, 11759, 10178 - 8, 8, 8, 9, 4
+
+============================================================
+MONTHLY RANKINGS: SOCIAL REFERRALS
+
+Lena    9
+Chase   3
+Chloe   1
+
+2024-07  Lena, Chase, Justin, Chloe, Nick - 37505, 1107, 729, 594, 492 - 3, 7, 9, 5, 2
+2024-08  Lena, Chase, Jane, Andrea, Justin - 2033, 1443, 957, 649, 615 - 4, 4, 3, 1, 6
+2024-09  Chase, Sarah, Lena, Chloe, Justin - 1735, 1285, 1186, 449, 308 - 7, 7, 4, 5, 3
+2024-10  Chloe, Hannah, Jane, Sarah, Chase - 2386, 2268, 1939, 1929, 449 - 7, 1, 1, 5, 7
+2024-11  Lena, Christine, Brooke, Chase, Lauren - 785, 637, 612, 600, 332 - 4, 1, 1, 5, 1
+2024-12  Lena, Chloe, Bill, Jenny, Chase - 1882, 943, 921, 599, 223 - 5, 2, 2, 1, 2
+2025-01  Chase, Chloe, Lena, Sarah, Elliott - 2793, 1714, 723, 520, 481 - 9, 7, 7, 7, 3
+2025-02  Lena, Jane, Justin, Emily, Chase - 1580, 1097, 911, 706, 439 - 13, 6, 9, 1, 6
+2025-03  Chase, Lena, Sarah, Jane, Chloe - 3186, 1664, 1084, 919, 795 - 12, 8, 9, 7, 10
+2025-04  Lena, Sarah, Chase, Chloe, David - 1624, 1441, 1332, 1200, 1170 - 9, 11, 14, 10, 2
+2025-05  Lena, Justin, Jane, Chloe, Nahshon - 13994, 1252, 1224, 1139, 915 - 13, 8, 8, 12, 1
+2025-06  Lena, Justin, Jane, Chase, Chloe - 2092, 1606, 611, 329, 253 - 10, 8, 6, 9, 6
+2025-07  Lena, Chloe, Jane, Chase, Justin - 3245, 2013, 1602, 1157, 1025 - 8, 8, 8, 9, 4
+
+============================================================
+MONTHLY RANKINGS: NEW VISITORS
+
+Chloe   4
+Lena    4
+Chase   3
+Jane    2
+
+2024-07  Lena, Chase, Justin, Chloe, Mila - 69832, 10260, 8640, 4714, 3550 - 3, 7, 9, 5, 5
+2024-08  Lena, Justin, Chloe, Chase, Jane - 10710, 7483, 7012, 6917, 6411 - 4, 6, 7, 4, 3
+2024-09  Chase, Sarah, Chloe, Lena, Justin - 14576, 7522, 6846, 4958, 3756 - 7, 7, 5, 4, 3
+2024-10  Chloe, Chase, Sarah, Justin, Lena - 11607, 9314, 8756, 5249, 3878 - 7, 7, 5, 6, 4
+2024-11  Chase, Chloe, Lena, Justin, Sarah - 22575, 8632, 4346, 3717, 3271 - 5, 3, 4, 5, 4
+2024-12  Lena, Chloe, Bill, Sarah, Justin - 13100, 5879, 5761, 4321, 3662 - 5, 2, 2, 3, 4
+2025-01  Chloe, Chase, Lena, Elliott, Sarah - 38708, 9387, 6853, 5972, 5537 - 7, 9, 7, 3, 7
+2025-02  Jane, Lena, Justin, Chase, Sarah - 10599, 8042, 6019, 4079, 4002 - 6, 13, 9, 6, 9
+2025-03  Chase, Lena, Sarah, Chloe, Jane - 18321, 15261, 6815, 6369, 6230 - 12, 8, 9, 10, 7
+2025-04  Chloe, Lena, Justin, Chase, Sarah - 8649, 6807, 6734, 6434, 5548 - 10, 9, 9, 14, 11
+2025-05  Lena, Chloe, Justin, Mila, Jane - 54779, 11367, 11250, 5737, 5426 - 13, 12, 8, 1, 8
+2025-06  Jane, Lena, Justin, Daneen, Chloe - 9393, 8310, 6936, 6234, 3388 - 6, 10, 8, 6, 6
+2025-07  Chloe, Lena, Jane, Chase, Justin - 24698, 22801, 11094, 7661, 6330 - 8, 8, 8, 9, 4
+
+============================================================
+MONTHLY RANKINGS: ENGAGED MINUTES
+
+Lena    6
+Chase   3
+Chloe   2
+Bill    1
+Jane    1
+
+2024-07  Lena, Justin, Chase, Chloe, Mila - 173705, 16263, 11276, 5572, 5474 - 3, 9, 7, 5, 5
+2024-08  Lena, Andrea, Justin, Chloe, Chase - 17440, 15662, 15126, 13063, 12886 - 4, 1, 6, 7, 4
+2024-09  Chase, Chloe, Sarah, Lena, Justin - 24847, 14328, 12919, 9612, 5524 - 7, 5, 7, 4, 3
+2024-10  Chloe, Chase, Sarah, Jane, Jasmine - 30631, 15469, 13675, 9698, 8620 - 7, 7, 5, 1, 2
+2024-11  Chase, Chloe, Justin, Lena, Sarah - 20834, 20481, 9038, 7817, 5956 - 5, 3, 5, 4, 4
+2024-12  Bill, Lena, Chloe, Sarah, Justin - 41132, 35713, 12680, 7166, 5899 - 2, 5, 2, 3, 4
+2025-01  Chloe, Chase, Elliott, Justin, Lena - 101560, 15761, 12495, 11268, 10602 - 7, 9, 3, 6, 7
+2025-02  Jane, Lena, Justin, Chase, Chloe - 26180, 15852, 13938, 10757, 9133 - 6, 13, 9, 6, 4
+2025-03  Chase, Lena, Chloe, Sarah, Adele - 42562, 34428, 15136, 12705, 12601 - 12, 8, 10, 9, 1
+2025-04  Lena, Chloe, Justin, Chase, Sarah - 24586, 21466, 17828, 16377, 13889 - 9, 10, 9, 14, 11
+2025-05  Lena, Justin, Chloe, Jane, Mila - 110811, 26241, 24745, 12611, 9706 - 13, 8, 12, 8, 1
+2025-06  Lena, Jane, Justin, Daneen, Chase - 21784, 15272, 14990, 10326, 7570 - 10, 6, 8, 6, 9
+2025-07  Lena, Chloe, Justin, Jane, Chase - 81784, 37653, 18206, 16487, 14826 - 8, 8, 4, 8, 9
+
+
+
+2024-07  Justin, Chase ...
+2024-08  Chloe, Justin ...
+2024-09  [Chase, Sarah] TIE  ...
+2024-10  [Chase, Chloe]  ...
+2024-11  [Chase, Justin] TIE...
+2024-12  Lena, Justin, ...
+2025-01  Chase, Chloe, ...
+2025-02  Lena, Justin ...
+2025-03  Chase, Chloe ...
+2025-04  Chase, Sarah ...
+2025-05  Lena, Chloe ...
+2025-06  Lena, Chase ...
+2025-07  Sarah, Chase ...
+

@@ -45,6 +45,39 @@ def save_parquet_if_needed(csv_path, df):
         raise
 
 
+def count_category_winners(monthly_metrics, metric_key):
+    """Count how many times each author topped a metric category.
+    
+    Handles ties by counting all authors with max value as winners.
+    Returns list of (first_name, win_count) tuples, sorted by wins desc, then name.
+    """
+    winners = defaultdict(int)
+    
+    for month in sorted(monthly_metrics.keys()):
+        metric_data = monthly_metrics[month][metric_key]
+        if not metric_data:
+            continue
+            
+        max_value = max(metric_data.values())
+        
+        # All authors with max value are winners
+        for author, value in metric_data.items():
+            if value == max_value:
+                winners[author] += 1
+    
+    # Convert to first names and sort
+    first_name_winners = []
+    for author, count in winners.items():
+        first_name = author.split()[0] if author else "Unknown"
+        first_name_winners.append((first_name, count))
+    
+    # Sort by wins (desc), then alphabetically
+    sorted_winners = sorted(first_name_winners, 
+                          key=lambda x: (-x[1], x[0]))
+    
+    return sorted_winners
+
+
 def analyze_monthly_metrics(df, ignored_authors):
     """Analyze journalist metrics by month with equal credit distribution."""
     
@@ -105,7 +138,18 @@ def print_monthly_rankings_compact(monthly_metrics, metric_name, metric_key, top
     """Print monthly rankings in compact format."""
     
     print(f"\n{'='*60}")
-    print(f"MONTHLY RANKINGS: {metric_name.upper()}")
+    print(f"MONTHLY RANKINGS: {metric_name.upper()}\n")
+    
+    # Show category winners summary
+    winners = count_category_winners(monthly_metrics, metric_key)
+    if winners:
+        # Find max name length for alignment
+        max_name_len = max(len(name) for name, _ in winners)
+        
+        for name, win_count in winners:
+            # Right-align count at consistent position
+            print(f"{name:<{max_name_len + 2}}{win_count:>2}")
+        print()  # Blank line before monthly data
     
     # Sort months chronologically
     sorted_months = sorted(monthly_metrics.keys())
@@ -246,6 +290,17 @@ def print_monthly_rankings(monthly_metrics, metric_name, metric_key, top_n):
     print(f"\n{'='*60}")
     print(f"MONTHLY RANKINGS: {metric_name.upper()}")
     print(f"{'='*60}")
+    
+    # Show category winners summary
+    winners = count_category_winners(monthly_metrics, metric_key)
+    if winners:
+        print("\nTop finishers:")
+        # Find max name length for alignment
+        max_name_len = max(len(name) for name, _ in winners)
+        
+        for name, win_count in winners:
+            print(f"  {name:<{max_name_len + 2}}{win_count:>2}")
+        print()  # Blank line before monthly data
     
     # Sort months chronologically
     sorted_months = sorted(monthly_metrics.keys())

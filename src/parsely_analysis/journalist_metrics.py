@@ -218,24 +218,24 @@ def main(parquet_file, top_n, after_date, output_dir, save_parquet):
     print_top_journalists(metrics, "New Visitors", "new_visitors", top_n)
     print_top_journalists(metrics, "Engaged Minutes", "engaged_minutes", top_n)
     
-    # Additional analysis: collaboration patterns
-    print(f"\n{'='*60}")
-    print("COLLABORATION ANALYSIS")
-    print(f"{'='*60}")
+    # # Additional analysis: collaboration patterns
+    # print(f"\n{'='*60}")
+    # print("COLLABORATION ANALYSIS")
+    # print(f"{'='*60}")
     
-    collab_ratios = []
-    for author in metrics['article_count']:
-        total = metrics['article_count'][author]
-        collab = metrics['collab_articles'][author]
-        if total > 5:  # Only include authors with >5 articles
-            collab_ratios.append((author, collab/total, total, collab))
+    # collab_ratios = []
+    # for author in metrics['article_count']:
+    #     total = metrics['article_count'][author]
+    #     collab = metrics['collab_articles'][author]
+    #     if total > 5:  # Only include authors with >5 articles
+    #         collab_ratios.append((author, collab/total, total, collab))
     
-    collab_ratios.sort(key=lambda x: x[1], reverse=True)
+    # collab_ratios.sort(key=lambda x: x[1], reverse=True)
     
-    print(f"{'Journalist':<30} {'Collab %':<10} {'Total':<8} {'Collabs'}")
-    print(f"{'-'*60}")
-    for author, ratio, total, collabs in collab_ratios[:10]:
-        print(f"{author:<30} {ratio*100:>8.1f}% {total:>8} {collabs:>8}")
+    # print(f"{'Journalist':<30} {'Collab %':<10} {'Total':<8} {'Collabs'}")
+    # print(f"{'-'*60}")
+    # for author, ratio, total, collabs in collab_ratios[:10]:
+    #     print(f"{author:<30} {ratio*100:>8.1f}% {total:>8} {collabs:>8}")
     
     # Reminder about saved data
     if output_dir:
