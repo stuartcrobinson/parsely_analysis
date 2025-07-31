@@ -6,6 +6,7 @@ csv_outputs/
 inputs/
 results/
 inputs*/
+splitter_output_directory/
 
 tmp*
 

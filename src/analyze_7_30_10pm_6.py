@@ -258,30 +258,30 @@ def print_results(journalist_data, journalist_articles, monthly_data, monthly_ar
     
     print("\n")
     
-    # Monthly rankings for each metric
-    for metric in METRIC_COLUMNS.keys():
-        print("=" * 62)
-        print(f"MONTHLY RANKINGS: {metric.upper().replace('_', ' ')}")
-        print()
+    # # Monthly rankings for each metric
+    # for metric in METRIC_COLUMNS.keys():
+    #     print("=" * 62)
+    #     print(f"MONTHLY RANKINGS: {metric.upper().replace('_', ' ')}")
+    #     print()
         
-        # Get monthly winners
-        monthly_winners = get_monthly_winners(monthly_data, monthly_articles, metric, top_n_monthly)
+    #     # Get monthly winners
+    #     monthly_winners = get_monthly_winners(monthly_data, monthly_articles, metric, top_n_monthly)
         
-        # Count wins
-        win_counts = count_monthly_wins(monthly_winners)
+    #     # Count wins
+    #     win_counts = count_monthly_wins(monthly_winners)
         
-        # Display win counts (sorted by wins descending, then by name)
-        sorted_winners = sorted(win_counts.items(), key=lambda x: (-x[1], x[0]))
-        for name, wins in sorted_winners:
-            print(f"{name:<8}{wins}")
+    #     # Display win counts (sorted by wins descending, then by name)
+    #     sorted_winners = sorted(win_counts.items(), key=lambda x: (-x[1], x[0]))
+    #     for name, wins in sorted_winners:
+    #         print(f"{name:<8}{wins}")
         
-        print()
+    #     print()
         
-        # Display monthly details
-        for year_month in sorted(monthly_winners.keys()):
-            print(format_monthly_ranking_line(year_month, monthly_winners[year_month]))
+    #     # Display monthly details
+    #     for year_month in sorted(monthly_winners.keys()):
+    #         print(format_monthly_ranking_line(year_month, monthly_winners[year_month]))
         
-        print()
+    #     print()
 
 
 @click.command()
